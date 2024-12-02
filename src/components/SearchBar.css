@@ -1,0 +1,40 @@
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 15px 10px; /* Espacement intérieur */
+    width: 317px; /* Largeur totale de la barre */
+    background-color: #fff; /* Fond blanc */
+    position: relative;
+    left: 1200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    bottom: -50px;
+   
+  }
+  
+  .search-input {
+    border: none; /* Pas de bordure pour l'input */
+    outline: none; /* Supprime le contour au focus */
+    flex: 1; /* Remplit l'espace disponible */
+    font-size: 16px; /* Taille du texte */
+    color: #555; /* Couleur du texte */
+    font-family: "Libre Franklin", sans-serif;
+  }
+  
+  .search-input::placeholder {
+    color: #aaa; /* Couleur du placeholder */
+  }
+  
+  .search-button {
+    border: none; /* Pas de bordure pour le bouton */
+    background: none; /* Pas de couleur de fond */
+    cursor: pointer; /* Curseur en mode clic */
+    font-size: 16px; /* Taille de l'icône */
+    color: #555; /* Couleur de l'icône */
+  }
+  
+  .search-button:hover {
+    color: #000; /* Couleur noire au survol */
+  }
+  

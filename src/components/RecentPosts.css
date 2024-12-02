@@ -1,0 +1,69 @@
+.recent-posts-container {
+    width: 300px; /* Largeur identique à la search bar */
+    border: 1px solid #ddd; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 20px; /* Espacement intérieur */
+    background-color: #fff; /* Fond blanc */
+    position: relative;
+    left: 1200px;
+    bottom: -100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-posts-title {
+    font-size: 21px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px; /* Espacement entre le titre et la liste */
+  }
+  
+  .recent-posts-list {
+    list-style-type: none; /* Supprime les puces */
+    padding: 0; /* Supprime l'espacement par défaut */
+    margin: 0;
+  }
+  
+  .recent-post-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espacement entre les items */
+    border-bottom: 1px solid #ddd; /* Ligne de séparation */
+    padding-bottom: 10px;
+  }
+  
+  .recent-post-item:last-child {
+    border-bottom: none; /* Pas de ligne pour le dernier élément */
+  }
+  
+  .recent-post-image {
+    width: 75px; /* Taille de l'image */
+    height: 75px;
+    object-fit: cover; /* Maintient les proportions de l'image */
+    border-radius: 5px;
+    margin-right: 10px; /* Espacement entre l'image et le contenu */
+  }
+  
+  .recent-post-content {
+    flex: 1; /* Prend tout l'espace disponible */
+  }
+  
+  .recent-post-title {
+    font-size: 15px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 600;
+    color: #ff0e47; /* Couleur rose */
+    text-decoration: none; /* Pas de soulignement */
+    transition: color 0.3s ease;
+  }
+  
+  .recent-post-title:hover {
+    color: #ff4080; /* Couleur rose plus clair au survol */
+  }
+  
+  .recent-post-category {
+    font-size: 15px;
+    color: #555; /* Couleur grise pour le texte */
+    font-family: "Libre Franklin", sans-serif;
+  }
+  
