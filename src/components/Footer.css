@@ -1,7 +1,7 @@
 .footer {
     background-color: #000;
     color: #fff;
-    padding: 120px 0; /* Augmenté pour plus de hauteur */
+    padding: 120px 0; 
     text-align: center;
     position: relative;
     bottom: -700px;
@@ -23,7 +23,7 @@
   
   .footer-section h2 {
     font-size: 21px;
-    margin-bottom: 20px; /* Augmenté pour plus d'espacement */
+    margin-bottom: 20px; 
     text-transform: uppercase;
     text-align: center;
     font-family: montserrat, sans-serif;
@@ -31,13 +31,13 @@
   
   .footer-section p {
     font-size: 17px;
-    line-height: 1.8; /* Augmenté pour un meilleur espacement vertical */
+    line-height: 1.8; 
     text-align: center;
     font-family: "Libre Franklin", sans-serif;
   }
   
   .footer-copyright {
-    margin-top: 50px; /* Espacement supplémentaire */
+    margin-top: 50px; 
     font-size: 17px;
     color: #ccc;
     position: absolute;
@@ -56,10 +56,10 @@
   }
   
   .footer-links {
-    margin-top: 30px; /* Augmenté pour un espacement plus aéré */
+    margin-top: 30px; 
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Augmenté pour plus d'espacement entre les liens */
+    gap: 20px; 
     position: absolute;
     text-align: center;
     font-family: "Libre Franklin", sans-serif;

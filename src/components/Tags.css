@@ -1,9 +1,9 @@
 .tags-container {
-    width: 300px; /* Largeur identique à Recent Posts */
-    border: 1px solid #ddd; /* Bordure grise */
-    border-radius: 5px; /* Coins arrondis */
-    padding: 20px; /* Espacement intérieur */
-    background-color: #fff; /* Fond blanc */
+    width: 300px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 20px;
+    background-color: #fff; 
     position: relative;
     left: 1200px;
     bottom: -150px;
@@ -11,7 +11,7 @@
   }
   
   .tags-title {
-    margin-bottom: 40px; /* Espacement entre le titre et les tags */
+    margin-bottom: 40px;
     font-size: 21px;
     font-family: montserrat, sans-serif;
     font-weight: bold;
@@ -20,18 +20,18 @@
   
   .tags-list {
     display: flex;
-    flex-wrap: wrap; /* Les tags se placent sur plusieurs lignes si nécessaire */
-    gap: 10px; /* Espacement entre les tags */
+    flex-wrap: wrap; 
+    gap: 10px; 
   }
   
   .tag-item {
-    background-color: #fff; /* Fond blanc */
-    border: 1px solid #ddd; /* Bordure grise */
-    color: #ff0e47; /* Texte en rose */
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    color: #ff0e47; 
     font-size: 16px;
     font-family: "Libre Franklin", sans-serif;
-    padding: 10px 15px; /* Taille des boutons */
-    border-radius: 3px; /* Coins légèrement arrondis */
+    padding: 10px 15px; 
+    border-radius: 3px; 
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -39,8 +39,8 @@
   
   
   .active-tag {
-    background-color: #ff0066; /* Fond rose pour le tag actif */
-    color: #fff; /* Texte blanc pour le tag actif */
-    border: none; /* Pas de bordure pour le tag actif */
+    background-color: #ff0066; 
+    color: #fff; 
+    border: none; 
   }
   

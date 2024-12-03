@@ -70,7 +70,7 @@
 
 
   .article-card-half {
-    max-width: 400px; /* La moitié de 800px (premier composant) */
+    max-width: 400px; 
     margin: 20px auto;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -104,7 +104,7 @@
   }
   
   .article-card-half .article-content {
-    font-size: 14px; /* Texte plus petit */
+    font-size: 14px; 
     color: #333;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -126,8 +126,7 @@
 
 
   .article-card-half-2 {
-    max-width: 400px; /* La moitié de 800px (premier composant) */
-    margin: 20px auto;
+    max-width: 400px; 
     padding: 20px;
     font-family: Arial, sans-serif;
     border: 1px solid #eaeaea;
@@ -160,7 +159,7 @@
   }
   
   .article-card-half-2 .article-content {
-    font-size: 14px; /* Texte plus petit */
+    font-size: 14px; 
     color: #333;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -182,7 +181,7 @@
 
 
   .article-card-half-3 {
-    max-width: 400px; /* La moitié de 800px (premier composant) */
+    max-width: 400px; 
     margin: 20px auto;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -217,7 +216,7 @@
   }
   
   .article-card-half-3 .article-content {
-    font-size: 14px; /* Texte plus petit */
+    font-size: 14px; 
     color: #333;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -239,7 +238,7 @@
 
 
   .article-card-half-4 {
-    max-width: 400px; /* La moitié de 800px (premier composant) */
+    max-width: 400px; 
     margin: 20px auto;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -274,7 +273,7 @@
   }
   
   .article-card-half-4 .article-content {
-    font-size: 14px; /* Texte plus petit */
+    font-size: 14px; 
     color: #333;
     line-height: 1.6;
     margin-bottom: 15px;

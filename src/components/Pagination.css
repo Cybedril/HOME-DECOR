@@ -16,7 +16,7 @@
     font-family: "Libre Franklin", sans-serif;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2.3px solid #ff0e47; /* Bordure rose */
+    border: 2.3px solid #ff0e47; 
     color: #ff0e47;
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -25,14 +25,14 @@
     color: black;
   }
   
-  /* Applique un fond rose pour le bouton 1 */
+  
   .pagination-link.active {
     background-color: #ff0e47;
     color: white;
   }
   
   .pagination-link:hover {
-    background-color:  #ff0e47;/* Fond rose clair au survol */
+    background-color:  #ff0e47;
     color: white; 
   }
   
@@ -45,16 +45,16 @@
     color: black;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
-    margin-left: 10px; /* Ajout de l'espace entre les liens et le bouton Next */
+    margin-left: 10px; 
   }
   
   .pagination-next:hover {
-    background-color:  #ff0e47;/* Fond rose clair au survol */
+    background-color:  #ff0e47;
     color: white;
   }
   
   .pagination-next:active {
-    background-color: #ff0e47; /* Fond rose sur clic */
+    background-color: #ff0e47; 
     color: white;
   }
   

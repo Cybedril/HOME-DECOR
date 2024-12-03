@@ -2,7 +2,7 @@ import React from 'react';
 import './Pagination.css';
 
 const Pagination = () => {
-  // Tableau des numéros de liens
+
   const links = [1, 2, 3]; 
 
   return (

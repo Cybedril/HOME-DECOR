@@ -1,11 +1,11 @@
 .search-bar-container {
     display: flex;
     align-items: center;
-    border: 1px solid #ddd; /* Bordure grise */
-    border-radius: 5px; /* Coins arrondis */
-    padding: 15px 10px; /* Espacement intérieur */
-    width: 317px; /* Largeur totale de la barre */
-    background-color: #fff; /* Fond blanc */
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 15px 10px;
+    width: 317px; 
+    background-color: #fff; 
     position: relative;
     left: 1200px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -14,27 +14,27 @@
   }
   
   .search-input {
-    border: none; /* Pas de bordure pour l'input */
-    outline: none; /* Supprime le contour au focus */
-    flex: 1; /* Remplit l'espace disponible */
-    font-size: 16px; /* Taille du texte */
-    color: #555; /* Couleur du texte */
+    border: none; 
+    outline: none; 
+    flex: 1; 
+    font-size: 16px; 
+    color: #555; 
     font-family: "Libre Franklin", sans-serif;
   }
   
   .search-input::placeholder {
-    color: #aaa; /* Couleur du placeholder */
+    color: #aaa; 
   }
   
   .search-button {
-    border: none; /* Pas de bordure pour le bouton */
-    background: none; /* Pas de couleur de fond */
-    cursor: pointer; /* Curseur en mode clic */
-    font-size: 16px; /* Taille de l'icône */
-    color: #555; /* Couleur de l'icône */
+    border: none; 
+    background: none;
+    cursor: pointer; 
+    font-size: 16px; 
+    color: #555; 
   }
   
   .search-button:hover {
-    color: #000; /* Couleur noire au survol */
+    color: #000; 
   }
   
